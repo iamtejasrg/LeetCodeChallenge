@@ -26,4 +26,3 @@ class Solution(object):
                 return words_vow[queryLV]
             return ""
 
-        return map(solve, queries)
