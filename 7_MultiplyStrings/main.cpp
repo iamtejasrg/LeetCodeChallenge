@@ -38,13 +38,13 @@ private:
         return finalAnswer;
     }
     
-    // Multiply the current digit of secondNumber with firstNumber.
+    // Multiply the current digit of secondNumber with firstNumber
     vector<int> multiplyOneDigit(string& firstNumber, char& secondNumberDigit, int numZeros) {
         // Insert zeros at the beginning based on the current digit's place.
         vector<int> currentResult(numZeros, 0);
         int carry = 0;
 
-        // Multiply firstNumber with the current digit of secondNumber.
+        // Multiply firstNumber with the current digit of secondNumber..
         for (char firstNumberDigit : firstNumber) {
             int multiplication = (secondNumberDigit - '0') * (firstNumberDigit - '0') + carry;
             // Set carry equal to the tens place digit of multiplication.
