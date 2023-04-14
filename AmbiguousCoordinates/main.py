@@ -12,4 +12,4 @@ class Solution(object):
         S = S[1:-1]
         return ["({}, {})".format(*cand)
                 for i in xrange(1, len(S))
-                for cand in itertools.product(make(S[:i]), make(S[i:]))]
+                for cand in itertools.product(make(S[:i]),  make(S[i:]))]
