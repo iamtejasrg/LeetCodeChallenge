@@ -5,7 +5,7 @@ public:
         
         for (auto i : S){
         if ( i == '#'){
-            if (!s1.empty()){
+            if (!s1.empty()){ 
                 s1.pop();    
             }
         }      
