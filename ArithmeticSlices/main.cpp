@@ -14,7 +14,7 @@ public:
         else 
             recurse(A, i-1);
         
-        return ap;
+        return ap; 
     }
     
     int numberOfArithmeticSlices(vector<int>& A) {
