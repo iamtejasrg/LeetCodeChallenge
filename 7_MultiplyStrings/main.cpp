@@ -1,6 +1,6 @@
 class Solution { 
 private:       
-    // Calculate the sum of all of the results from multiplyOneDigit.
+    // Calculate the sum of all of the results from multiplyOneDigit. 
     string sumResults(vector<vector<int>>& results) {     
         // Initialize answer as a number from results.    
         vector<int> answer = results.back();             
