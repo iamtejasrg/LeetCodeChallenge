@@ -10,7 +10,7 @@ private:
         // Sum each digit from answer and result   
         for (vector<int> result : results) {
             newAnswer.clear();
-            int carry = 0;
+            int carry = 0; 
             
             for (int i = 0; i < answer.size() || i < result.size(); ++i) {
                 // If answer is shorter than result or vice versa, use 0 as the current digit.
