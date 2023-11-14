@@ -4,7 +4,7 @@ public:
     void calculate(int n, int pos, vector<bool> &visited) {
         if (pos > n) {
             cnt++;
-        }    
+        }      
         for (int i = 1; i <= n; ++i) {
             if (!visited[i] && (((pos%i) == 0) || ((i%pos) == 0))) {
                 visited[i] = true;
