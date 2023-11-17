@@ -6,7 +6,7 @@ private:
         vector<int> answer = results.back();                   
         vector<int> newAnswer;             
         results.pop_back();       
-         
+                               
         // Sum each digit from answer and result   
         for (vector<int> result : results) {     
             newAnswer.clear();
