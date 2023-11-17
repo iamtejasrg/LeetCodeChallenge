@@ -8,7 +8,7 @@ private:
         results.pop_back();       
          
         // Sum each digit from answer and result   
-        for (vector<int> result : results) {
+        for (vector<int> result : results) {     
             newAnswer.clear();
             int carry = 0; 
             
