@@ -6,7 +6,7 @@
 #         self.right = None
   
 class BSTIterator:
-
+ 
     def __init__(self, root: TreeNode):
 
         # Array containing all the nodes in the sorted order
