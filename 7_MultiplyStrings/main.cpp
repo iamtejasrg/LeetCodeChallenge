@@ -9,7 +9,7 @@ private:
                                
         // Sum each digit from answer and result   
         for (vector<int> result : results) {     
-            newAnswer.clear();    
+            newAnswer.clear();     
             int carry = 0; 
             
             for (int i = 0; i < answer.size() || i < result.size(); ++i) {
