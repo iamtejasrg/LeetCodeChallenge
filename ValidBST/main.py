@@ -3,7 +3,7 @@ class Solution:
         stack, prev = [], -math.inf
         
         while stack or root:
-            while root:
+            while root:  
                 stack.append(root)
                 root = root.left
             root = stack.pop()
