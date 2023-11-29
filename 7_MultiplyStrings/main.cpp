@@ -4,7 +4,7 @@ private:
     string sumResults(vector<vector<int>>& results) {       
         // Initialize answer as a number from results.           
         vector<int> answer = results.back();                    
-        vector<int> newAnswer;             
+        vector<int> newAnswer;              
         results.pop_back();             
                                                           
         // Sum each digit from answer and result     
